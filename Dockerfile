@@ -1,10 +1,8 @@
-FROM httpd:2.4
+FROM nginx:alpine
 
-WORKDIR /usr/local/apache2/htdocs/
-
-COPY . .
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
 
-CMD ["httpd-foreground"]
+CMD ["nginx", "-g", "daemon off;"]
 
