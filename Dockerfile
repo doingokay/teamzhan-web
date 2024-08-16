@@ -4,7 +4,7 @@ WORKDIR /usr/local/apache2/htdocs/
 
 COPY . .
 
-EXPOSE 1337
+EXPOSE 80
 
 CMD ["httpd-foreground"]
 
