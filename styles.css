@@ -135,7 +135,7 @@ body {
   justify-content: space-between;
   margin-right: 2rem; 
   width: auto;
-  height: 16rem;
+  height: auto;
   margin-bottom: 1rem;
 }
 
@@ -248,7 +248,22 @@ body {
     font-size: 1em;
   }
 
+  .team-container {
+    gap: 1.5rem; 
+  }
+
+  .member-card {
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 90%; 
+  }
+
+  .image-container {
+    margin-right: 0; 
+    margin-bottom: 1rem; 
+  }
 }
+
 @media only screen and (max-width: 600px) {
   body {
     font-size: 0.8em;
@@ -261,10 +276,56 @@ body {
   h2 {
     font-size: 1.2em;
   }
+
+  .team-container {
+    gap: 1rem; 
+  }
+
+  .profile-image,
+  .profile-video {
+    width: 10rem; 
+    height: 10rem; 
+  }
+
+  .social-links {
+    width: 10rem; 
+  }
 }
 
 @media only screen and (max-width: 400px) {
+  body {
+    font-size: 0.7em; 
+  }
+
   .menu a {
-    padding: 5px 10px;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .member-card {
+    padding: 1rem; 
+  }
+
+  .profile-image,
+  .profile-video {
+    width: 8rem; 
+    height: 8rem; 
+  }
+
+  .social-links {
+    width: 8rem; 
+  }
+
+  .social-link img {
+    width: 2rem;
+    height: 2rem; 
+  }
+
+  .menu {
+    gap: 0.5rem; 
+  }
+
+  .discord-button {
+    width: 100%;
+    text-align: center; 
   }
 }
