@@ -290,6 +290,10 @@ body {
   .social-links {
     width: 10rem; 
   }
+  
+  .member-info {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 400px) {
