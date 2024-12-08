@@ -1,4 +1,4 @@
-# Team zHan Web
+# Team zHan
 
 The "amazing" website for Team zHan.
 
@@ -19,7 +19,7 @@ Then visit [localhost:8080](http://localhost:8080) in your browser.
 
 ---
 
-## Mentiones
+## Mentions
 
 Since this is a public community repo, we'd like to give a shoutout to the following people for their contributions:
 
